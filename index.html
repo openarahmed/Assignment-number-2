@@ -7,19 +7,13 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Assignment number 2</title>
     <style>
-        .section-one {
-            background-color: #FFF4E7;
-            height: auto;
-            Width: 100%;
-        }
-
+        /* nav bar */
         .nav-sub {
             display: flex;
             justify-content: space-between;
             align-items: center;
             margin-left: 180px;
             margin-right: 180px;
-
         }
 
         .text {
@@ -28,6 +22,7 @@
 
         .nav-text a {
             text-decoration: none;
+            color: black;
         }
 
         .nav-text {
@@ -38,23 +33,17 @@
         nav h1 {
             margin-top: 50px;
             font-size: 45px;
+        }
 
+        /* first page ::backdrop and others */
+        .section-one {
+            background-color: #FFF4E7;
+            height: auto;
+            Width: 100%;
         }
 
         .section-two-sub h1 {
             font-size: 64px;
-
-        }
-
-        #button {
-            background-color: #FD9010;
-            padding: 20px;
-            color: white;
-            font-size: 20px;
-            border-radius: 10px;
-            border: none;
-            margin-top: 20px;
-
         }
 
         .section-two-sub {
@@ -64,6 +53,7 @@
 
         .title {
             margin-top: 5px;
+
         }
 
         .banner img {
@@ -73,6 +63,18 @@
             margin-bottom: 45px;
         }
 
+        /* first page button */
+        #button {
+            background-color: #FD9010;
+            padding: 10px;
+            color: white;
+            font-size: 20px;
+            border-radius: 5px;
+            border: none;
+            margin-top: 20px;
+        }
+
+        /* page number third */
         .third {
             display: flex;
             align-items: center;
@@ -86,8 +88,6 @@
             grid-template-columns: repeat(2, 1fr);
             width: 50%;
             gap: 15px;
-
-
         }
 
         .third {
@@ -105,114 +105,361 @@
         }
 
         .third-title {
-            font-size: 35px;
+            font-size: 40px;
+            color: gray;
+
+
 
         }
 
+        .of-our {
+            color: black;
+        }
+
+        .feautures {
+            color: #FD9010;
+        }
+
+        /* third page button */
         .button {
             background-color: #FD9010;
-            padding: 20px;
+            padding: 10px;
             color: white;
             font-size: 20px;
-            border-radius: 10px;
+            border-radius: 5px;
             border: none;
             margin-top: 20px;
 
         }
-        
-        .fourth{
+
+        /* page number four */
+        .fourth {
             display: flex;
             margin-left: 150px;
             margin-right: 150px;
             gap: 100px;
             align-items: center;
             margin-top: 50px;
-            
+
         }
-        .fourth-img img{
+
+        .tenyear {
+            height: 100px;
+            width: 170px;
+            background-color: #FD9010;
+            position: relative;
+            left: 650px;
+            bottom: 190px;
+            color: white;
+            text-align: center;
+            border-radius: 5px;
+        }
+
+        .fourth-img img {
             width: 100%;
         }
-        .fourth-sub{
+
+        .fourth-sub {
             display: grid;
             width: 50%;
             gap: 15px;
-            
-            
+
+
         }
-        
-        
-        .fourth-p{
-            
+
+
+        .fourth-p {
+
             padding: 20px;
             border-radius: 10px;
             box-shadow: 0 5px 15px rgba(128, 128, 128, 0.314);
-            
+
         }
-        .stick{
+
+        /* Stick after fifth page  */
+        .stick {
             height: 60px;
             width: 5px;
             background-color: #FD9010;
             position: relative;
             left: -10px;
-    bottom: -90px;
+            bottom: -90px;
         }
-        .fourth-title{
+
+        .fourth-title {
             font-size: 30px;
             padding-left: 10px;
         }
-        .icon{
+
+        /* page number fifth */
+        .icon {
             display: flex;
             justify-content: space-around;
+            margin-top: 40px;
         }
-        .fifth{
+
+        .fifth {
             margin-top: 50px;
         }
-        .fifth-sub{
+
+        .fifth-sub {
             margin-left: 150px;
             margin-right: 150px;
         }
-        .icon{
-            margin-top: 40px;
-        }
-        .icon-sub{
+
+        .icon-sub {
             text-align: center;
             border: 1px solid #FF900E;
-;
+            ;
             height: 150px;
             width: 150px;
             padding: 35px 35px;
         }
-        .fifth-title{
+
+        .fifth-title {
             font-size: 30px;
         }
-        .sponsor{
+
+        /* fifth page sponsor img */
+        .sponsor {
             display: flex;
             justify-content: space-between;
             margin: 0 150px;
-            margin-top: 40px;
+            margin-top: 60px;
             margin-bottom: 100px;
         }
-        .sixth-sub{
+
+        /* page number sixth */
+        .sixth-sub {
             text-align: center;
             margin-top: 50px;
         }
-        .sixth-title{
+
+        .sixth-title {
             font-size: 30px;
         }
-        footer{
+
+        /* last page footer */
+        footer {
             background-color: #FFF4E7;
+            height: 70px;
+            width: 830px;
+            text-align: center;
+            margin-bottom: 200px;
+            color: #424242;
+            margin-left: 20%;
+            padding-top: 11px;
+        }
+
+        .extra {
+            display: flex;
+            gap: 100px;
+            align-items: center;
+            margin: 0 150px;
+        }
+
+        .extra img {
+            width: 100%;
+
+        }
+
+        .first-building {
+            width: 50%;
+
+        }
+
+        #second-building {
+            height: 340px;
+        }
+
+        #extra-title {
+            text-align: center;
+            margin-top: 50px;
+            font-size: 30px;
+        }
+
+        /* use transform on sixth page icons */
+        .icon-one {
+            transition: transform 1s;
+        }
+
+        .icon-one:hover {
+            transform: rotate(360deg);
+        }
+
+        .icon-two {
+            transition: width 1s;
+            position: relative;
+        }
+
+        .icon-two:hover {
+            width: 100px;
+
+
+        }
+
+        .icon-three {
+            transition: transform 1s;
+        }
+
+        .icon-three:hover {
+            transform: rotate(-360deg);
+        }
+
+        .icon-four {
+            transition: transform 1s;
+        }
+
+        .icon-four:hover {
+            transform: skew(30deg);
+        }
+
+        .hide {
+            display: none;
+        }
+
+        @media screen and (max-width: 576px) {
+            .nav-sub {
+
+                flex-direction: column;
+                align-items: center;
+                margin-left: 10px;
+                margin-right: 10px;
+
+
+            }
+
+            nav h1 {
+                margin-top: 20px;
+                font-size: 40px;
+            }
+
+            .nav-text {
+                font-size: 25px;
+                margin-top: 05px;
+                display: flex;
+                flex-direction: column;
+            }
+
+            .banner img {
+                height: auto;
+                width: 100%;
+                margin-top: 10px;
+                margin-bottom: 10px;
+            }
+
+            .section-two-sub h1 {
+                font-size: 34px;
+                margin-top: 20px;
+            }
+
+            .third {
+
+                align-items: start;
+                margin-left: 10px;
+                margin-right: 10px;
+                gap: 20px;
+                flex-direction: column-reverse;
+            }
+
+            .third-img {
+
+                grid-template-columns: repeat(1, 1fr);
+
+                gap: 10px;
+            }
+
+            .third-p {
+
+                text-align: center;
+                width: auto;
+            }
+
+            element.style {}
+
+            .third-img img {
+                height: auto;
+                width: auto;
+            }
+
+            .fourth-sub {
+
+                grid-template-columns: repeat(1, 1fr);
+                width: auto;
+                gap: 15px;
+            }
+
+            .fourth {
+
+                margin-left: 10px;
+                margin-right: 10px;
+                gap: 10px;
+
+                margin-top: 50px;
+                flex-direction: column;
+            }
+
+            .fourth-title {
+
+                text-align: center;
+            }
+
+            .icon {
+
+
+
+                margin-top: 20px;
+                flex-direction: column;
+                align-content: center;
+                flex-wrap: wrap;
+            }
+
+
+
+
+            .fifth-sub {
+                margin-left: 10px;
+                margin-right: 10px;
+            }
+
+            .extra {
+
+                gap: 20px;
+                align-items: center;
+                margin: 0 10px;
+                flex-direction: column;
+            }
+
+            .first-building {
+                width: auto;
+            }
+
+            .sponsor {
+                
+                align-items: center;
+                margin: 0 10px;
+                margin-top: 60px;
+                margin-bottom: 100px;
+                gap: 30px;
+                flex-direction: column;
+            }
+            footer {
+    
     height: 70px;
-    width: 830px;
+    width: auto;
     text-align: center;
     margin-bottom: 200px;
     color: #424242;
-    margin-left: 20%;
+    margin-left: 10px;
     padding-top: 11px;
+    
+}
         }
     </style>
 </head>
 
 <body>
+    <!-- first-page -->
     <main class="section-one">
         <section>
             <nav>
@@ -234,7 +481,8 @@
                 </div>
             </nav>
         </section>
-        <section>
+        <!-- page number two -->
+        <section class="">
             <div class="section-two-sub">
                 <h1 class="title">Brand New <br>
                     Group of Architects </h1>
@@ -247,8 +495,8 @@
 
             </div>
         </section>
-
     </main>
+    <!-- third number page -->
     <section class="third">
         <div class="third-img">
             <div>
@@ -266,19 +514,21 @@
 
         </div>
         <div class="third-p">
-            <h1 class="third-title">Quick list of Our Features</h1>
+            <h1 class="third-title">Quick list <span class="of-our">of Our </span> <br> <span
+                    class="feautures">Features</span></h1>
             <p>There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration
                 in some form, by injected humour, or randomised words which don't look even</p>
             <button class="button">Explore More</button>
         </div>
     </section>
+    <!-- fourth number page -->
     <section class="fourth">
-        
+
         <div class="fourth-sub">
             <div>
-                <div class="stick"></div>
+                <div class="stick hide"></div>
                 <div>
-                    
+
                     <h1 class="fourth-title">Features you will <br> love & enjoy</h1>
                     <p>There are many variations of passages of Lorem Ipsum available, but the majority have suffered
                         alteration in some form, by injected humour, or randomised words which don't look even</p>
@@ -306,33 +556,45 @@
             </div>
 
         </div>
+
+
+        </div>
+
         <div class="fourth-img">
             <img src="./g3-architects-main/images/architect.png" alt="">
         </div>
+
     </section>
+    <div class="tenyear hide">
+        <h1>10+Year</h1>
+        <h4>Experience</h4>
+
+    </div>
+    <!-- fifth number page -->
     <section class="fifth">
         <div class="fifth-sub">
             <div>
                 <h1 class="fifth-title">Some Facts</h1>
-                <p>There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration.</p>
+                <p>There are many variations of passages of Lorem Ipsum available, but the majority have suffered
+                    alteration.</p>
             </div>
             <div class="icon">
-                <div class="icon-sub">
+                <div class="icon-sub icon-one">
                     <img src="./g3-architects-main/images/icons/ribon.png" alt="">
                     <h2>54</h2>
                     <h4>Awards Winnings</h4>
                 </div>
-                <div class="icon-sub">
+                <div class="icon-sub icon-two">
                     <img src="./g3-architects-main/images/icons/projects.png" alt="">
                     <h1>1458</h1>
                     <h4>Project Finished</h4>
                 </div>
-               <div class="icon-sub">
-                <img src="./g3-architects-main/images/icons/customers.png" alt="">
-                <h1>590</h1>
-                <h4>Clients Worked</h4>
-               </div>
-                <div class="icon-sub">
+                <div class="icon-sub icon-three">
+                    <img src="./g3-architects-main/images/icons/customers.png" alt="">
+                    <h1>590</h1>
+                    <h4>Clients Worked</h4>
+                </div>
+                <div class="icon-sub icon-four">
                     <img src="./g3-architects-main/images/icons/email.png" alt="">
                     <h1>22578</h1>
                     <h4>Email Send</h4>
@@ -341,11 +603,29 @@
         </div>
 
     </section>
-    <section class="sixth">
+    <!-- extra section -->
+    <section class="">
+        <div>
+            <div>
+                <h1 id="extra-title">Our letest two done projects</h1>
+            </div>
+            <div class="extra">
+                <div class="first-building">
+                    <img src="./g3-architects-main/images/architecture 1.jpeg" alt="">
+                </div>
+                <div class="first-building">
+                    <img id="second-building" src="./g3-architects-main/images/architecture 2.jpeg" alt="">
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- sixth number page -->
+    <section class="sixth ">
         <div>
             <div class="sixth-sub">
                 <h1 sixth-title>Our Sponspors</h1>
-                <p>There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration.</p>
+                <p>There are many variations of passages of Lorem Ipsum available, but the majority have suffered
+                    alteration.</p>
 
             </div>
             <div class="sponsor">
@@ -369,7 +649,8 @@
         </div>
 
     </section>
-    <footer>
+    <!-- final number page -->
+    <footer class="">
         <h5>All rights reserved copyright@2023 startup landing page design</h5>
     </footer>
 </body>

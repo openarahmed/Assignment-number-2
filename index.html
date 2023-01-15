@@ -7,9 +7,11 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Assignment number 2</title>
     <style>
-        /* -p means paragraph img means image */
+        /* -p means paragraph, img means image */
         /* sub means most major tag's child tag */
         /* one two....sixth meams section number */
+
+
         /* nav bar */
         .nav-sub {
             display: flex;
@@ -18,7 +20,9 @@
             margin-left: 180px;
             margin-right: 180px;
         }
-
+.nav-sub h1{
+    font-size: 35px;
+}
         .text {
             margin-left: 40px;
         }
@@ -33,11 +37,6 @@
             margin-top: 13px;
         }
 
-        nav h1 {
-            margin-top: 50px;
-            font-size: 45px;
-        }
-
         /* first page ::backdrop and others */
         .section-one {
             background-color: #FFF4E7;
@@ -45,6 +44,7 @@
             Width: 100%;
         }
 
+        /* second page */
         .section-two-sub h1 {
             font-size: 64px;
         }
@@ -56,7 +56,6 @@
 
         .title {
             margin-top: 5px;
-
         }
 
         .banner img {
@@ -84,6 +83,7 @@
             margin-left: 200px;
             margin-right: 200px;
             gap: 200px;
+            margin-top: 50px;
         }
 
         .third-img {
@@ -93,10 +93,6 @@
             gap: 15px;
         }
 
-        .third {
-            margin-top: 50px;
-        }
-
         .third-p {
             width: 50%;
         }
@@ -104,17 +100,14 @@
         .third-img img {
             height: 300px;
             width: 300px;
-
         }
 
         .third-title {
             font-size: 40px;
             color: gray;
-
-
-
         }
 
+        /* third page's title text inside color */
         .of-our {
             color: black;
         }
@@ -132,7 +125,6 @@
             border-radius: 5px;
             border: none;
             margin-top: 20px;
-
         }
 
         /* page number four */
@@ -143,7 +135,6 @@
             gap: 100px;
             align-items: center;
             margin-top: 50px;
-
         }
 
         /* fourth page's card */
@@ -167,10 +158,7 @@
             display: grid;
             width: 50%;
             gap: 15px;
-
-
         }
-
 
         .fourth-p {
 
@@ -214,7 +202,6 @@
         .icon-sub {
             text-align: center;
             border: 1px solid #FF900E;
-            ;
             height: 150px;
             width: 150px;
             padding: 35px 35px;
@@ -224,7 +211,7 @@
             font-size: 30px;
         }
 
-        /* fifth page sponsor img */
+        /* fifth page's sponsor img */
         .sponsor {
             display: flex;
             justify-content: space-between;
@@ -255,6 +242,7 @@
             padding-top: 11px;
         }
 
+        /* This is extra section for bonus */
         .extra {
             display: flex;
             gap: 100px;
@@ -264,12 +252,10 @@
 
         .extra img {
             width: 100%;
-
         }
 
         .first-building {
             width: 50%;
-
         }
 
         #second-building {
@@ -282,7 +268,7 @@
             font-size: 30px;
         }
 
-        /* use transform on sixth page icons */
+        /* transform use on sixth page icons */
         .icon-one {
             transition: transform 1s;
         }
@@ -318,8 +304,7 @@
             transform: skew(30deg);
         }
 
-
-
+        /* responsive for small devices like mobile */
         @media screen and (max-width: 576px) {
             .nav-sub {
 
@@ -327,8 +312,6 @@
                 align-items: center;
                 margin-left: 10px;
                 margin-right: 10px;
-
-
             }
 
             nav h1 {
@@ -362,7 +345,7 @@
                 margin-left: 10px;
                 margin-right: 10px;
                 gap: 20px;
-                flex-direction: column-reverse;
+                flex-direction: column;
             }
 
             .third-img {
@@ -377,8 +360,6 @@
                 text-align: center;
                 width: auto;
             }
-
-            element.style {}
 
             .third-img img {
                 height: auto;
@@ -408,17 +389,11 @@
             }
 
             .icon {
-
-
-
                 margin-top: 20px;
                 flex-direction: column;
                 align-content: center;
                 flex-wrap: wrap;
             }
-
-
-
 
             .fifth-sub {
                 margin-left: 10px;
@@ -426,7 +401,6 @@
             }
 
             .extra {
-
                 gap: 20px;
                 align-items: center;
                 margin: 0 10px;
@@ -438,7 +412,6 @@
             }
 
             .sponsor {
-
                 align-items: center;
                 margin: 0 10px;
                 margin-top: 60px;
@@ -448,7 +421,6 @@
             }
 
             footer {
-
                 height: 70px;
                 width: auto;
                 text-align: center;
@@ -456,7 +428,6 @@
                 color: #424242;
                 margin-left: 10px;
                 padding-top: 11px;
-
             }
 
             .tenyear {
